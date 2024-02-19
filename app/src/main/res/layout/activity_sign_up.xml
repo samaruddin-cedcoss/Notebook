@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context=".SignUp">
+
+    <EditText
+        android:id="@+id/userEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Email"
+        android:textColor="#0090FF"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#00E2FF"/>
+
+    <EditText
+        android:id="@+id/userPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#0090FF"
+        android:layout_marginTop="10dp"
+        android:hint="User Password"
+        android:textStyle="bold"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3077F3"
+        android:layout_gravity="center"/>
+</LinearLayout>
